@@ -1,13 +1,16 @@
 # Contextual PDF RAG (Retriever-Augmented Generation)
 
-This repository implements a **Retriever-Augmented Generation (RAG)** system that processes PDF documents and answers questions based on the content. It uses advanced NLP techniques to contextualize prompts and provide relevant answers, while also maintaining chat history across multiple interactions.
+This project is designed to **help users limit the scope of their queries** by enabling them to upload specific PDFs (such as books, novels, or any other documents) and retrieve answers directly from the provided content. This system allows users to ask context-aware questions, maintain a conversational history, and get precise answers from their uploaded documents.
+
+Whether you're studying a novel, analyzing a technical manual, or referencing a handbook, this tool simplifies the process by focusing on the specific content you provide.
 
 ## Features
 
-- **PDF Processing**: Load and parse PDFs for document retrieval.
-- **Contextual Question Formulation**: Reformulate questions to improve clarity and relevance with respect to the chat history.
-- **Retriever-Augmented Generation**: Leverage a combination of document retrieval and generative language models (GPT-4) to answer questions.
-- **Stateful History Management**: Track user conversations over multiple queries and provide a coherent context for ongoing interactions.
+- **Custom Scope Limitation**: Users can upload any PDF to define the boundaries of their queries.
+- **Efficient Document Retrieval**: Quickly find the most relevant sections of the uploaded document.
+- **Contextualized Answers**: Provides answers considering the document content and conversational history.
+- **Stateful History Management**: Tracks user conversations over multiple queries and ensures a seamless interaction experience.
+- **Versatile Use Cases**: Ideal for researchers, students, writers, and professionals seeking insights from specific documents.
 
 ## Requirements
 
@@ -23,8 +26,8 @@ To run this project, you need Python 3.x and the following libraries:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/davetej/GenAI.git
+    cd GenAI
     ```
 
 2. **Install dependencies**:
